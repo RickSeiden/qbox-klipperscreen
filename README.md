@@ -6,13 +6,21 @@
 
 These configuration files allow you to add a button to the home screen of KlipperScreen that brings up a new windows with controls to Remove and Reload the four filaments in your QiDi Box. The [q2-wiki repository at qidi-community](https://github.com/qidi-community/q2-wiki/blob/main/content/klipperscreen-installation/README.md) has instructions on installing KlipperScreen on your QiDi Q2.
 
+**I apologize for the craptasic screenshots**
 
+##### The main screen
+
+![alt main screen](https://github.com/RickSeiden/qbox-klipperscreen/blob/25d5bf51f21cafbbe9e4d73d19dcf70b804a10c3/screenshots/main_screen.jpg)
+
+##### The "box" screen
+
+![alt box screen](https://github.com/RickSeiden/qbox-klipperscreen/blob/25d5bf51f21cafbbe9e4d73d19dcf70b804a10c3/screenshots/qidi_screen.jpg)
 
 #### Installing this configuration
 
 
 
-1. Download the logo-qidi-white.svg file and copy it to \~/KlipperScreen/styles/<your\_style>/images
+1. Download the logo_qidi_white.svg file and copy it to \~/KlipperScreen/styles/<your\_style>/images
 
    a. There are a few folders under styles, and I wasn't sure which one was being used, so I copied it into all the images directories, just to be safe
 2. In Fluidd, open the Configuration window and open the KilpperScreen.conf file
