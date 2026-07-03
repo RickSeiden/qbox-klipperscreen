@@ -39,7 +39,8 @@ You know what's coming here.  While this is a small and fairly straight forward 
 
 ##### License
 
-This is herby placed in the Public Domain.  You can do whatever you want with it.
+The text in the KlipperScreen.conf file is my original work and is considered in the public domain.
+The QiDi logo in logo_qidi_white.svg is Copyright QiDi Technologies.  They reserve all rights.
 
 
 
