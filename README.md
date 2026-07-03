@@ -1,2 +1,47 @@
-# qbox-klipperscreen
-KlipperScreen configuration to add Qidi Box controls
+### qbox-klipperscreen
+
+##### [KlipperScreen](https://github.com/KlipperScreen/KlipperScreen) configuration to add controls for the QiDi Box.
+
+
+
+These configuration files allow you to add a button to the home screen of KlipperScreen that brings up a new windows with controls to Remove and Reload the four filaments in your QiDi Box. The [q2-wiki repository at qidi-community](https://github.com/qidi-community/q2-wiki/blob/main/content/klipperscreen-installation/README.md) has instructions on installing KlipperScreen on your QiDi Q2.
+
+
+
+#### Installing this configuration
+
+
+
+1. Download the logo-qidi-white.svg file and copy it to \~/KlipperScreen/styles/<your\_style>/images
+
+   a. There are a few folders under styles, and I wasn't sure which one was being used, so I copied it into all the images directories, just to be safe
+2. In Fluidd, open the Configuration window and open the KilpperScreen.conf file
+
+   a. You should back this up by SSHing into your printer and creating a copy, but the file has a "Do not edit below this line" warning at the top.  All your edits will go above that line, and if you delete everything above the line, it will restore your original file.
+3. Above the first line (that "Do not edit above this line") add the contents of KlipperScreen.conf in this repository and save your changes
+4. Restart KlipperScreen using one of these methods
+
+   a. Power cycle the printer
+   b. In SSH issue the command
+    sudo service KlipperScreen restart
+
+
+
+You should now have a QiDi logo with QiDi box under it, and tapping it will bring you to a screen with two rows of four buttons that let you Remove or Reload each spot in the box.
+
+
+
+#### Disclaimer
+
+You know what's coming here.  While this is a small and fairly straight forward change, you are making these changes at your own risk. I cannot be responsible for anything that happens to your printer.  Period.  You're 100% on your own if you try to do this. I can't offer more support than what you see here, and if something goes South, all I can say is to revert KlipperScreen.conf.
+
+
+
+##### License
+
+This is herby placed in the Public Domain.  You can do whatever you want with it.
+
+
+
+
+
