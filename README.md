@@ -38,6 +38,12 @@ These configuration files allow you to add a button to the home screen of Klippe
 You should now have a QiDi logo with QiDi box under it, and tapping it will bring you to a screen with two rows of four buttons that let you Remove or Reload each spot in the box.
 
 
+#### Edits to Python files
+
+**Remember to make backups of all files before you edit them!**
+
+* [KlipperScreen/ks_includes/files.py](https://github.com/RickSeiden/qbox-klipperscreen/blob/1936e719810bab886a4d5c42b52de8bfdd7f3fb3/files.py_changes.md)
+* [KlipperScreen/panels/gcodes.py](https://github.com/RickSeiden/qbox-klipperscreen/blob/fa0b1ccffe724718f972a84c3a86803a9f350c87/gcodes.py_changes.md)
 
 #### Disclaimer
 
